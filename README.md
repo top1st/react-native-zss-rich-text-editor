@@ -4,14 +4,14 @@ A fully functional Rich Text Editor for both Android and iOS, based off the [ZSS
 
 ##Installation
 
-`npm i --save react-native-zss-rich-text-editor`
+`npm i --save react-native-zss-rich-text-editor-v16`
 
 On Android, add the following to the end of your `android/app/build.gradle`
 
 ```groovy
 project.afterEvaluate {
-    apply from: '../../node_modules/react-native-zss-rich-text-editor/htmlCopy.gradle';
-    copyEditorHtmlToAppAssets(file('../../node_modules/react-native-zss-rich-text-editor'))
+    apply from: '../../node_modules/react-native-zss-rich-text-editor-v16/htmlCopy.gradle';
+    copyEditorHtmlToAppAssets(file('../../node_modules/react-native-zss-rich-text-editor-v16'))
 }
 ```
 
